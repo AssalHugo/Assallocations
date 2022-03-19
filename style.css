@@ -46,10 +46,6 @@ header li a{
     float: left;
 }
 
-#imagePrincipale{
-    padding-top: 60px;
-}
-
 h1 {
     font-family: "Dancing Script" , cursive;
     text-align: center;
@@ -143,16 +139,12 @@ p{
 }
 img {
 	width: 400px;
-	height: auto;
-}
-#onehneim{
-	width: 600px;
+    width: 40%;
+    max-width: 700px;
+    min-width: 300px;
 	height: auto;
 }
 
-#carte{
-    width: ;
-}
 .modal{
     visibility: hidden;
     opacity: 0;
