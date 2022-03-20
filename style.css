@@ -178,10 +178,61 @@ img[src^="media/Capture.PNG"]{
 	height: auto;
 }
 img[src^="media/else 1.jpg"]{
-    width: 400px;
+    margin-top: 100px;
+    width: 200px;
     width: 40%;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/else2.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/else3.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/else4.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 300px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/onha1.jpg"]{
+    margin-top: 100px;
+    width: 200px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/onha2.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/onha3.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 100px;
+	height: auto;
+}
+img[src^="media/onha4.jpg"]{
+    width: 200px;
+    width: 40%;
+    max-width: 300px;
+    min-width: 100px;
 	height: auto;
 }
 .modal{
