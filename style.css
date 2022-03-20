@@ -46,10 +46,6 @@ header li a{
     float: left;
 }
 
-#imagePrincipale{
-    padding-top: 60px;
-}
-
 h1 {
     font-family: "Dancing Script" , cursive;
     text-align: center;
@@ -91,15 +87,34 @@ h3{
     margin: 15px;
     font-weight: 300;
 }
-.imagesPrestations img{
+.imagesPrestations img[src^="media/Capture elsenheim.PNG"]{
     border-radius: 10px;
     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
 }
-.imagesPrestations img:hover{
+.imagesPrestations img:hover[src^="media/Capture elsenheim.PNG"]{
     opacity: 0.5;
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
 }
+.imagesPrestations img[src^="media/20210616_164713 (1).jpg"]{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.imagesPrestations img:hover[src^="media/20210616_164713 (1).jpg"]{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+.imagesPrestations img[src^="media/20210616_164713 (1).jpg"]{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.imagesPrestations img:hover[src^="media/Capture.PNG"]{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
 footer{
     background-color: #524A3A;
     color: #fffae1;
@@ -141,17 +156,33 @@ button.hover{
 p{
     font-size: 30px;
 }
-img {
-	width: 400px;
+img[src^="media/Capture elsenheim.PNG"]{
+    width: 400px;
+    width: 40%;
+    max-width: 700px;
+    min-width: 300px;
 	height: auto;
 }
-#onehneim{
-	width: 600px;
+img[src^="media/20210616_164713 (1).jpg"]{
+    width: 400px;
+    width: 40%;
+    max-width: 700px;
+    min-width: 300px;
 	height: auto;
 }
-
-#carte{
-    width: ;
+img[src^="media/Capture.PNG"]{
+    width: 400px;
+    width: 40%;
+    max-width: 700px;
+    min-width: 300px;
+	height: auto;
+}
+img[src^="media/else 1.jpg"]{
+    width: 400px;
+    width: 40%;
+    max-width: 700px;
+    min-width: 300px;
+	height: auto;
 }
 .modal{
     visibility: hidden;
@@ -174,12 +205,13 @@ img {
 .modal .modal-content {
     background-color: white;
     padding: 1.5em 2em;
-    width: 500px;
-    max-width: 90%;
+    width: 50px;
+    max-width: 60%;
 }
 .modal .modal_close{
     position: absolute;
     right: 15px;
     top: 15px;
     color: grey;
+
 }
