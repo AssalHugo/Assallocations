@@ -17,13 +17,13 @@
                 'Messages' => [
                   [
                     'From' => [
-                      'Email' => "hugo.assal1@gmail.com",
+                      'Email' => $email,
                       'Name' => "Assal"
                     ],
                     'To' => [
                       [
                         'Email' => "hugo.assal1@gmail.com",
-                        'Name' => "Assal"
+                        'Name' => $surname
                       ]
                     ],
                     'Subject' => "Greetings from Mailjet.",
